@@ -1,12 +1,23 @@
-{
-  "title": "Block third-party fonts",
-  "tag": "block-fonts",
-  "pattern": {
-    "scheme": ["http", "https"],
-    "host": ["*.fonts.com", "*.fonts.net", "*.fontawesome.com"],
-    "origin": "cross-domain"
-  },
-  "types": ["font"],
-  "action": "block",
-  "active": true
-}
+[
+    {
+        "title": "Block third-party fonts",
+        "tag": "block-fonts",
+        "pattern": {
+            "scheme": [
+                "http",
+                "https"
+            ],
+            "host": [
+                "*.fonts.com",
+                "*.fonts.net",
+                "*.fontawesome.com"
+            ],
+            "origin": "cross-domain"
+        },
+        "types": [
+            "font"
+        ],
+        "action": "block",
+        "active": true
+    }
+]
