@@ -1,24 +1,22 @@
 [
-    {
-        "uuid": "b50a95da-2df7-4cb1-8c22-60ee5696999f",
-        "title": "Block third-party fonts",
-        "tag": "block-fonts",
-        "pattern": {
-            "scheme": [
-                "http",
-                "https"
-            ],
-            "host": [
-                "*.fonts.com",
-                "*.fonts.net",
-                "*.fontawesome.com"
-            ],
-            "origin": "cross-domain"
-        },
-        "types": [
-            "font"
-        ],
-        "action": "block",
-        "active": true
-    }
+  {
+    "uuid": "b50a95da-2df7-4cb1-8c22-60ee5696999f",
+    "title": "Block third-party fonts",
+    "tag": "block-fonts",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.fonts.com",
+        "*.fonts.net",
+        "*.fontawesome.com"
+      ],
+      "method": [],
+      "path": []
+    },
+    "action": "block",
+    "active": true,
+    "types": [
+      "font"
+    ]
+  }
 ]

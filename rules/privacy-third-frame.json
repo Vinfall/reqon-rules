@@ -1,21 +1,21 @@
-{
+[
+  {
     "uuid": "efac38c2-2078-461f-87a5-f6bb622ab5cc",
     "title": "Block third-party frames",
     "tag": "block-frames",
     "pattern": {
-        "scheme": [
-            "http",
-            "https"
-        ],
-        "host": [
-            "*.youtube.com",
-            "*.vimeo.com"
-        ],
-        "origin": "cross-domain"
+      "scheme": "*",
+      "host": [
+        "*.youtube.com",
+        "*.vimeo.com"
+      ],
+      "method": [],
+      "path": []
     },
-    "types": [
-        "sub_frame"
-    ],
     "action": "block",
-    "active": true
-}
+    "active": true,
+    "types": [
+      "sub_frame"
+    ]
+  }
+]
