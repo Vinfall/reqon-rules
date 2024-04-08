@@ -1,23 +1,24 @@
 [
-  {
-    "title": "Block third-party scripts",
-    "tag": "block-scripts",
-    "pattern": {
-      "scheme": [
-        "http",
-        "https"
-      ],
-      "host": [
-        "*.google-analytics.com",
-        "*.doubleclick.net",
-        "*.facebook.net"
-      ],
-      "origin": "cross-domain"
-    },
-    "types": [
-      "script"
-    ],
-    "action": "block",
-    "active": true
-  }
+    {
+        "uuid": "b755f39d-e9c9-4b0b-b0e6-27e69aa9ed1a",
+        "title": "Block third-party scripts",
+        "tag": "block-scripts",
+        "pattern": {
+            "scheme": [
+                "http",
+                "https"
+            ],
+            "host": [
+                "*.google-analytics.com",
+                "*.doubleclick.net",
+                "*.facebook.net"
+            ],
+            "origin": "cross-domain"
+        },
+        "types": [
+            "script"
+        ],
+        "action": "block",
+        "active": true
+    }
 ]
