@@ -1,5 +1,6 @@
 [
     {
+        "uuid": "b50a95da-2df7-4cb1-8c22-60ee5696999f",
         "title": "Block third-party fonts",
         "tag": "block-fonts",
         "pattern": {
